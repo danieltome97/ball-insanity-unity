@@ -39,7 +39,7 @@ public class ballcontrol2 : MonoBehaviour
             //el juego ha acabado, esperamos a que se pulse una tecla
             if (Input.anyKeyDown)
             {
-             SceneManager.LoadScene(1);
+             SceneManager.LoadScene(0);
             }
         }
         else
